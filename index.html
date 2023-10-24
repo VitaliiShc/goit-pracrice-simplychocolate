@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simply Chocolate</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/png" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-container">
+          <nav class="header-nav">
+            <a class="logo" href="/">
+              <span class="logo-accent">Simply</span>&nbsp;Chocolate&nbsp;
+              <svg class="logo-icon">
+                <use href="./images/icons.svg#logo-simplychocolate"></use>
+              </svg>
+            </a>
+
+            <ul class="header-nav-list mob-hidden">
+              <li class="header-nav-item">
+                <a href="#hero">Home</a>
+              </li>
+              <li class="header-nav-item">
+                <a href="#made">How it's made?</a>
+              </li>
+              <li class="header-nav-item">
+                <a href="#loved">Chocolate is loved</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="header-socials-list mob-hidden">
+            <li class="header-social-item">
+              <a
+                class="header-social-link"
+                href="#"
+                aria-label="Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="header-social-icon">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header-social-item">
+              <a
+                class="header-social-link"
+                href="#"
+                aria-label="Facebook"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="header-social-icon">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="header-social-item">
+              <a
+                class="header-social-link"
+                href="#"
+                aria-label="Twitter"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="header-social-icon">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <button type="button" class="menu-open-btn" data-menu-open>
+            <svg class="menu-open-icon">
+              <use href="./images/icons.svg#menu"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- <div class="mob-menu is-hidden" data-menu>
+        <button class="mob-menu-close-btn" type="button" data-menu-close>
+          <svg class="mob-menu-close-icon">
+            <use href="./images/icons.svg#-modal"></use>
+          </svg>
+        </button>
+        <div class="menu-nav">
+          <ul class="menu-nav-list">
+            <li class="menu-nav-item">
+              <a href="#hero">Home</a>
+            </li>
+            <li class="menu-nav-item">
+              <a href="#made">How it's made?</a>
+            </li>
+            <li class="menu-nav-item">
+              <a href="#loved">Chocolate is loved</a>
+            </li>
+          </ul>
+          <ul class="menu-socials-list">
+            <li class="menu-social-item">
+              <a
+                class="menu-social-link"
+                href="#"
+                aria-label="Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="menu-social-icon">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-social-item">
+              <a
+                class="menu-social-link"
+                href="#"
+                aria-label="Facebook"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="menu-social-icon">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="menu-social-item">
+              <a
+                class="menu-social-link"
+                href="#"
+                aria-label="Twitter"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <svg class="menu-social-icon">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div> -->
+    </header>
+
+    <main>
+      <!-- <section class="hero-section" id="hero">
+        <div class="container">
+          <div class="hero-container">
+            <h1 class="hero-title">
+              Treat yourself or a loved one <br class="hero-title-mob-break" />
+              to <br class="hero-title-tab-break" />
+              our finest ingredients for a moment of pure delight!
+            </h1>
+            <div class="hero-buttons">
+              <button type="button" class="hero-btn">Buy now</button>
+              <a class="hero-link" href="#made">How it's made</a>
+              <a class="hero-scroll" href="#products"
+                >scroll down
+                <span class="hero-scroll-ellipse">
+                  <svg class="hero-scroll-icon">
+                    <use href="./images/icons.svg#scroll"></use>
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- <section class="benefits-section" id="benefits">
+        <div class="container">
+          <div class="benefits-container">
+            <h2 class="visually-hidden">Benefits</h2>
+            <ul class="benefits-list">
+              <li class="benefit-item">
+                <div class="benefit-icon-ellipse">
+                  <svg class="benefit-icon">
+                    <use href="./images/icons.svg#taste"></use>
+                  </svg>
+                </div>
+                <h3 class="benefit-name">Unsurpassed taste</h3>
+                <p class="benefit-description">
+                  Crafted with the finest quality cocoa beans and a dedication
+                  to perfection, each bite is a decadent experience that simply
+                  cannot be matched. Savor the richness and complexity of our
+                  Unsurpassed Taste and discover a new level of chocolate bliss.
+                </p>
+              </li>
+              <li class="benefit-item">
+                <div class="benefit-icon-ellipse">
+                  <svg class="benefit-icon">
+                    <use href="./images/icons.svg#price"></use>
+                  </svg>
+                </div>
+                <h3 class="benefit-name">Affordable price</h3>
+                <p class="benefit-description">
+                  Indulge in high-quality chocolate without breaking the bank
+                  with Simply Chocolate's selection of affordable treats. Enjoy
+                  mouth-watering truffles and velvety chocolate bars without
+                  sacrificing taste or quality. Browse our selection and indulge
+                  in affordable luxury today.
+                </p>
+              </li>
+              <li class="benefit-item">
+                <div class="benefit-icon-ellipse">
+                  <svg class="benefit-icon">
+                    <use href="./images/icons.svg#production"></use>
+                  </svg>
+                </div>
+                <h3 class="benefit-name">Own production</h3>
+                <p class="benefit-description">
+                  We take pride in our own production process, ensuring that
+                  every step is carefully crafted to perfection. From selecting
+                  the finest ingredients to handcrafting each piece, our
+                  attention to detail is evident in every bite.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- <section class="ingredients-section" id="ingredients">
+        <div class="container">
+          <div class="ingredients-container">
+            <h2 class="section-title">
+              It all adds up to one exceptional
+              <span class="title-accent">taste</span> sensation
+            </h2>
+            <ul class="ingredients-list">
+              <li class="ingredient-item">
+                <a class="ingredient-link" href="#" onclick="return false">
+                  <svg class="ingredient-item-icon">
+                    <use href="./images/icons.svg#arrow"></use>
+                  </svg>
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/ingredients-milkchocolate-dt.png    1x,
+                        ./images/ingredients-milkchocolate-dt-2x.png 2x
+                      "
+                      media="(min-width: 1166px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/ingredients-milkchocolate-tab.png    1x,
+                        ./images/ingredients-milkchocolate-tab-2x.png 2x
+                      "
+                      media="(max-width: 1165px)"
+                    />
+                    <img class="ingredient-img"
+                      src="./images/ingredients-milkchocolate-dt.png"
+                      alt="Milk chocolate"
+                    />
+                  </picture>
+                  <h3 class="ingredient-name">Milk chocolate</h3>
+                  <div class="ingredient-cover">
+                    <h4 class="ingredient-cover-title">Milk chocolate</h4>
+                    <div class="ingredient-cover-extra">
+                      <p class="ingredient-cover-name">Milk chocolate</p>
+                      <p class="ingredient-cover-benefit">the benefits</p>
+                    </div>
+                    <p class="ingredient-cover-text">
+                      Milk chocolate is a solid chocolate confectionery
+                      containing cocoa, sugar and milk. It is the most consumed
+                      type of chocolate. Chocolate was originally sold and
+                      consumed as a beverage in pre-Columbian times. Although
+                      four-fifths of all milk chocolate is sold in the United
+                      States and Europe.
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li class="ingredient-item">
+                <a href="#" class="ingredient-link" onclick="return false">
+                  <svg class="ingredient-item-icon">
+                    <use href="./images/icons.svg#arrow"></use>
+                  </svg>
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/ingredients-milk-dt.png    1x,
+                        ./images/ingredients-milk-dt-2x.png 2x
+                      "
+                      media="(min-width: 1166px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/ingredients-milk-tab.png    1x,
+                        ./images/ingredients-milk-tab-2x.png 2x
+                      "
+                      media="(max-width: 1165px)"
+                    />
+                    <img class="ingredient-img" src="./images/ingredients-milk-dt.png" alt="Milk" />
+                  </picture>
+                  <h3 class="ingredient-name">Milk</h3>
+                  <div class="ingredient-cover">
+                    <h4 class="ingredient-cover-title">Milk</h4>
+                    <div class="ingredient-cover-extra">
+                      <p class="ingredient-cover-name">Milk</p>
+                      <p class="ingredient-cover-benefit">the benefits</p>
+                    </div>
+                    <p class="ingredient-cover-text">
+                      Milk is a white liquid food produced by the mammary glands
+                      of mammals. It is the primary source of nutrition for
+                      young mammals (including breastfed human infants) before
+                      they are able to digest solid food.Early-lactation milk,
+                      which is called colostrum, contains antibodies that
+                      strengthen the immune system.
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li class="ingredient-item">
+                <a href="#" class="ingredient-link" onclick="return false">
+                  <svg class="ingredient-item-icon">
+                    <use href="./images/icons.svg#arrow"></use>
+                  </svg>
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/ingredients-nuts-dt.png    1x,
+                        ./images/ingredients-nuts-dt-2x.png 2x
+                      "
+                      media="(min-width: 1166px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/ingredients-nuts-tab.png    1x,
+                        ./images/ingredients-nuts-tab-2x.png 2x
+                      "
+                      media="(max-width: 1165px)"
+                    />
+                    <img class="ingredient-img" src="./images/ingredients-nuts-dt.png" alt="Nuts" />
+                  </picture>
+                  <h3 class="ingredient-name">Nuts</h3>
+                  <div class="ingredient-cover">
+                    <h4 class="ingredient-cover-title">Nuts</h4>
+                    <div class="ingredient-cover-extra">
+                      <p class="ingredient-cover-name">Nuts</p>
+                      <p class="ingredient-cover-benefit">the benefits</p>
+                    </div>
+                    <p class="ingredient-cover-text">
+                      Almonds, pistachios, and walnuts are some types of nuts
+                      that contain healthy nutrients. When eaten as part of a
+                      nutrient-dense diet, these 9 nuts may offer benefits such
+                      as reducing your risk of heart disease. They're a good
+                      source of fiber, healthy fats, and plant protein. Plus,
+                      they're great on their own.
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li class="ingredient-item">
+                <a href="#" class="ingredient-link" onclick="return false">
+                  <svg class="ingredient-item-icon">
+                    <use href="./images/icons.svg#arrow"></use>
+                  </svg>
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/ingredients-semisweetchocolate-dt.png    1x,
+                        ./images/ingredients-semisweetchocolate-dt-2x.png 2x
+                      "
+                      media="(min-width: 1166px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/ingredients-semisweetchocolate-tab.png    1x,
+                        ./images/ingredients-semisweetchocolate-tab-2x.png 2x
+                      "
+                      media="(max-width: 1165px)"
+                    />
+                    <img class="ingredient-img"
+                      src="./images/ingredients-semisweetchocolate-dt.png"
+                      alt="Semi-sweet chocolate"
+                    />
+                  </picture>
+                  <h3 class="ingredient-name">Semi - sweet chocolate</h3>
+                  <div class="ingredient-cover">
+                    <h4 class="ingredient-cover-title">
+                      Semi - sweet chocolate
+                    </h4>
+                    <div class="ingredient-cover-extra">
+                      <p class="ingredient-cover-name">
+                        Semi - sweet chocolate
+                      </p>
+                      <p class="ingredient-cover-benefit">the benefits</p>
+                    </div>
+                    <p class="ingredient-cover-text">
+                      Semi-sweet chocolate has a cocoa solid content of 35 to
+                      65%. One of the best ways to gain an understanding of this
+                      type of chocolate is to compare it to a different type of
+                      chocolate. Semisweet is darker than milk chocolate. In a
+                      taste comparison, it has a slightly bitter taste whereas
+                      milk chocolate is sweeter and more mellow.
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li class="ingredient-item mob-hidden">
+                <a href="#" class="ingredient-link" onclick="return false">
+                  <svg class="ingredient-item-icon">
+                    <use href="./images/icons.svg#arrow"></use>
+                  </svg>
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/ingredients-cacao-dt.png    1x,
+                        ./images/ingredients-cacao-dt-2x.png 2x
+                      "
+                      media="(min-width: 1166px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/ingredients-cacao-tab.png    1x,
+                        ./images/ingredients-cacao-tab-2x.png 2x
+                      "
+                      media="(max-width: 1165px)"
+                    />
+                    <img class="ingredient-img" src="./images/ingredients-cacao-dt.png" alt="Cacao" />
+                  </picture>
+                  <h3 class="ingredient-name">Cacao</h3>
+                  <div class="ingredient-cover">
+                    <h4 class="ingredient-cover-title">Cacao</h4>
+                    <div class="ingredient-cover-extra">
+                      <p class="ingredient-cover-name">Cacao</p>
+                      <p class="ingredient-cover-benefit">the benefits</p>
+                    </div>
+                    <p class="ingredient-cover-text">
+                      Cocoa is a natural product obtained from the fruits of the
+                      cocoa tree (Theobroma cacao). This tropical fruit contains
+                      beans, from which cocoa mass, cocoa powder and chocolate
+                      are made. The history of the use of cocoa goes back to
+                      ancient times. Already in ancient Mesoamerica, the Mayan
+                      and Aztec civilizations used cocoa in their culture and
+                      rituals
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li class="ingredient-item mob-hidden">
+                <a href="#" class="ingredient-link" onclick="return false">
+                  <svg class="ingredient-item-icon">
+                    <use href="./images/icons.svg#arrow"></use>
+                  </svg>
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/ingredients-raspberry-dt.png    1x,
+                        ./images/ingredients-raspberry-dt-2x.png 2x
+                      "
+                      media="(min-width: 1166px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/ingredients-raspberry-tab.png    1x,
+                        ./images/ingredients-raspberry-tab-2x.png 2x
+                      "
+                      media="(max-width: 1165px)"
+                    />
+                    <img class="ingredient-img"
+                      src="./images/ingredients-raspberry-dt.png"
+                      alt="Raspberry"
+                    />
+                  </picture>
+                  <h3 class="ingredient-name">Raspberry</h3>
+                  <div class="ingredient-cover">
+                    <h4 class="ingredient-cover-title">Raspberry</h4>
+                    <div class="ingredient-cover-extra">
+                      <p class="ingredient-cover-name">Raspberry</p>
+                      <p class="ingredient-cover-benefit">the benefits</p>
+                    </div>
+                    <p class="ingredient-cover-text">
+                      Raspberry is a tasty and aromatic berry plant that is
+                      popular all over the world. It belongs to the pink family
+                      and grows in many regions, including North America, Europe
+                      and Asia. Raspberries have many varieties and color
+                      variations, from red to yellow and black.
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li class="ingredient-item mob-hidden">
+                <a href="#" class="ingredient-link" onclick="return false">
+                  <svg class="ingredient-item-icon">
+                    <use href="./images/icons.svg#arrow"></use>
+                  </svg>
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/ingredients-coconut-dt.png    1x,
+                        ./images/ingredients-coconut-dt-2x.png 2x
+                      "
+                      media="(min-width: 1166px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/ingredients-coconut-tab.png    1x,
+                        ./images/ingredients-coconut-tab-2x.png 2x
+                      "
+                      media="(max-width: 1165px)"
+                    />
+                    <img class="ingredient-img"
+                      src="./images/ingredients-coconut-dt.png"
+                      alt="Coconut oil"
+                    />
+                  </picture>
+                  <h3 class="ingredient-name">Coconut oil</h3>
+                  <div class="ingredient-cover">
+                    <h4 class="ingredient-cover-title">Coconut oil</h4>
+                    <div class="ingredient-cover-extra">
+                      <p class="ingredient-cover-name">Coconut oil</p>
+                      <p class="ingredient-cover-benefit">the benefits</p>
+                    </div>
+                    <p class="ingredient-cover-text">
+                      Coconut oil is a vegetable oil obtained from the pulp of
+                      the fruit of the coconut palm (Cocos nucifera). It is
+                      widely used in cooking, cosmetics and medicine, thanks to
+                      its numerous useful properties. Coconut oil is a source of
+                      saturated fats, especially medium-chain fatty acids, such
+                      as lauric acid.
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li class="ingredient-item mob-hidden">
+                <a href="#" class="ingredient-link" onclick="return false">
+                  <svg class="ingredient-item-icon">
+                    <use href="./images/icons.svg#arrow"></use>
+                  </svg>
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/ingredients-vanilla-dt.png    1x,
+                        ./images/ingredients-vanilla-dt-2x.png 2x
+                      "
+                      media="(min-width: 1166px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/ingredients-vanilla-tab.png    1x,
+                        ./images/ingredients-vanilla-tab-2x.png 2x
+                      "
+                      media="(max-width: 1165px)"
+                    />
+                    <img class="ingredient-img"
+                      src="./images/ingredients-vanilla-dt.png"
+                      alt="Vanilla"
+                    />
+                  </picture>
+                  <h3 class="ingredient-name">Vanilla</h3>
+                  <div class="ingredient-cover">
+                    <h4 class="ingredient-cover-title">Vanilla</h4>
+                    <div class="ingredient-cover-extra">
+                      <p class="ingredient-cover-name">Vanilla</p>
+                      <p class="ingredient-cover-benefit">the benefits</p>
+                    </div>
+                    <p class="ingredient-cover-text">
+                      Vanilla is one of the most popular flavorings and
+                      seasonings in the world. It is obtained from the fruits of
+                      the tropical orchid Vanilla planifolia. Vanilla has a rich
+                      history of use as a seasoning, perfume component, and raw
+                      material for the production of confectionery.
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- <section class="made-section" id="made">
+        <div class="made-container container">
+          <h2 class="section-title">
+            How it's <span class="title-accent">made?</span>
+          </h2>
+          <div class="made-content">
+            <a class="made-preview-link" href="#" onclick="return false">
+              <picture>
+                <source
+                  srcset="
+                    ./images/made-poster-dt.jpg    1x,
+                    ./images/made-poster-dt-2x.jpg 2x
+                  "
+                  media="(min-width: 1166px)"
+                />
+                <source
+                  srcset="
+                    ./images/made-poster-tab.jpg    1x,
+                    ./images/made-poster-tab-2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/made-poster-mob.jpg    1x,
+                    ./images/made-poster-mob-2x.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  class="made-poster"
+                  src="./images/made-poster-dt.jpg"
+                  alt="How it's made"
+                />
+              </picture>
+              <div class="play-icon-ellipse">
+                <svg class="play-icon">
+                  <use href="./images/icons.svg#play"></use>
+                </svg>
+              </div>
+            </a>
+            <div class="made-description">
+              <p class="made-tagline">
+                Try our chocolates today and discover the perfect balance of
+                flavor
+              </p>
+              <ul class="made-list">
+                <li class="made-item">
+                  Heat the milk in a saucepan without bringing it to a boil. Add
+                  sugar and cocoa powder.
+                </li>
+                <li class="made-item">
+                  At the same time, prepare a water bath. Melt the butter on it.
+                </li>
+                <li class="made-item">
+                  "Mix" the milk mixture and already liquid butter. Mix
+                  thoroughly with a silicone spatula so that the mass becomes
+                  uniform and silky.
+                </li>
+                <li class="made-item">
+                  Heat the mixture over low heat, letting it barely boil.
+                </li>
+                <li class="made-item">
+                  Pour the chocolate into special containers (can be replaced
+                  with ice molds). Allow to cool and harden.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- <section class="products-section" id="products">
+        <div class="products-container container">
+          <h2 class="section-title">
+            Our <span class="title-accent">products</span>
+          </h2>
+          <ul class="products-list">
+            <li class="product-item">
+              <picture>
+                <source
+                  srcset="
+                    ./images/products-bar01.jpg    1x,
+                    ./images/products-bar01-2x.jpg 2x
+                  " />
+                <img
+                  class="product-img"
+                  src="./images/products-bar01.jpg"
+                  alt="Orange"
+              /></picture>
+              <h3 class="product-name">Orange</h3>
+              <p class="product-description">Dark Chocolate</p>
+              <button class="price" type="button">45 UAH</button>
+            </li>
+            <li class="product-item">
+              <picture>
+                <source
+                  srcset="
+                    ./images/products-bar02.jpg    1x,
+                    ./images/products-bar02-2x.jpg 2x
+                  " />
+                <img
+                  class="product-img"
+                  src="./images/products-bar02.jpg"
+                  alt="Apple And Cranberry"
+              /></picture>
+              <h3 class="product-name">Apple&Cranberry</h3>
+              <p class="product-description">Milk Chocolate</p>
+              <button class="price" type="button">50 UAH</button>
+            </li>
+            <li class="product-item">
+              <picture>
+                <source
+                  srcset="
+                    ./images/products-bar03.jpg    1x,
+                    ./images/products-bar03-2x.jpg 2x
+                  " />
+                <img
+                  class="product-img"
+                  src="./images/products-bar03.jpg"
+                  alt="Lime And Sea Salt"
+              /></picture>
+              <h3 class="product-name">Lime&Sea Salt</h3>
+              <p class="product-description">Dark Chocolate</p>
+              <button class="price" type="button">66 UAH</button>
+            </li>
+            <li class="product-item">
+              <picture>
+                <source
+                  srcset="
+                    ./images/products-bar04.jpg    1x,
+                    ./images/products-bar04-2x.jpg 2x
+                  " />
+                <img
+                  class="product-img"
+                  src="./images/products-bar04.jpg"
+                  alt="Pineapple"
+              /></picture>
+              <h3 class="product-name">Pineapple</h3>
+              <p class="product-description">Dark Chocolate</p>
+              <button class="price" type="button">54 UAH</button>
+            </li>
+            <li class="product-item">
+              <picture>
+                <source
+                  srcset="
+                    ./images/products-bar05.jpg    1x,
+                    ./images/products-bar05-2x.jpg 2x
+                  " />
+                <img
+                  class="product-img"
+                  src="./images/products-bar05.jpg"
+                  alt="Classic"
+              /></picture>
+              <h3 class="product-name">Classic</h3>
+              <p class="product-description">Milk Chocolate</p>
+              <button class="price" type="button">45 UAH</button>
+            </li>
+            <li class="product-item">
+              <picture>
+                <source
+                  srcset="
+                    ./images/products-bar06.jpg    1x,
+                    ./images/products-bar06-2x.jpg 2x
+                  " />
+                <img
+                  class="product-img"
+                  src="./images/products-bar06.jpg"
+                  alt="Honey"
+              /></picture>
+              <h3 class="product-name">Honey</h3>
+              <p class="product-description">Milk Chocolate</p>
+              <button class="price" type="button">50 UAH</button>
+            </li>
+            <li class="product-item">
+              <picture>
+                <source
+                  srcset="
+                    ./images/products-bar07.jpg    1x,
+                    ./images/products-bar07-2x.jpg 2x
+                  " />
+                <img
+                  class="product-img"
+                  src="./images/products-bar07.jpg"
+                  alt="Roasted Fruits"
+              /></picture>
+              <h3 class="product-name">Roasted Fruits</h3>
+              <p class="product-description">Dark Chocolate</p>
+              <button class="price" type="button">66 UAH</button>
+            </li>
+            <li class="product-item">
+              <picture>
+                <source
+                  srcset="
+                    ./images/products-bar08.jpg    1x,
+                    ./images/products-bar08-2x.jpg 2x
+                  " />
+                <img
+                  class="product-img"
+                  src="./images/products-bar08.jpg"
+                  alt="Classic"
+              /></picture>
+              <h3 class="product-name">Classic</h3>
+              <p class="product-description">White Chocolate</p>
+              <button class="price" type="button">54 UAH</button>
+            </li>
+          </ul>
+        </div>
+      </section> -->
+
+      <section class="best-section" id="best">
+        <div class="best-container container">
+          <h2 class="section-title">
+            <span class="title-accent">Top</span> sellers
+          </h2>
+          <ul class="best-list">
+            <li class="best-item">
+              <a class="best-link" href="#">
+                <div class="best-description">
+                  <picture>
+                    <source
+                      srcset="
+                        ./images/best-nuts-dt.jpg    1x,
+                        ./images/best-nuts-dt-2x.jpg 2x
+                      "
+                      media="(min-width: 1166px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/best-nuts-tab.jpg    1x,
+                        ./images/best-nuts-tab-2x.jpg 2x
+                      "
+                      media="(min-width: 768px)"
+                    />
+                    <source
+                      srcset="
+                        ./images/best-nuts-mob.jpg    1x,
+                        ./images/best-nuts-mob-2x.jpg 2x
+                      "
+                      media="(max-width: 767px)"
+                    />
+                    <img
+                      class="best-img"
+                      src="./images/best-nuts-dt.jpg"
+                      alt="Chocolate With Nuts"
+                    />
+                  </picture>
+                  <p class="best-cover">
+                    Chocolate with nuts is a delectable combination that brings
+                    together the smoothness of chocolate and the crunchiness of
+                    nuts. Whether it's milk chocolate, dark chocolate, or white
+                    chocolate, the addition of nuts adds a whole new dimension
+                    of flavor and texture.
+                  </p>
+                </div>
+                <h3 class="best-name">Chocolate With Nuts</h3>
+              </a>
+            </li>
+            <li class="best-item mob-hidden">
+              <a class="best-link">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/best-fruits-dt.jpg    1x,
+                      ./images/best-fruits-dt-2x.jpg 2x
+                    "
+                    media="(min-width: 1166px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/best-fruits-tab.jpg    1x,
+                      ./images/best-fruits-tab-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/best-fruits-mob.jpg    1x,
+                      ./images/best-fruits-mob-2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    class="best-img"
+                    src="./images/best-fruits-dt.jpg"
+                    alt="Chocolate With Fruits"
+                  />
+                </picture>
+                <h3 class="best-name">Chocolate With Fruits</h3>
+                <p class="best-description">
+                  Chocolate with fruit is an unbeatable combination of two of
+                  the tastiest things in the world. This dessert combines
+                  delicate and aromatic chocolate with fresh and juicy fruits,
+                  creating a true poetry of taste.
+                </p>
+              </a>
+            </li>
+            <li class="best-item mob-hidden tab-hidden">
+              <a class="best-link">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/best-dark-dt.jpg    1x,
+                      ./images/best-dark-dt-2x.jpg 2x
+                    "
+                    media="(min-width: 1166px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/best-dark-tab.jpg    1x,
+                      ./images/best-dark-tab-2x.jpg 2x
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/best-dark-mob.jpg    1x,
+                      ./images/best-dark-mob-2x.jpg 2x
+                    "
+                    media="(max-width: 767px)"
+                  />
+                  <img
+                    class="best-img"
+                    src="./images/best-dark-dt.jpg"
+                    alt="Dark Chocolate"
+                  />
+                </picture>
+                <h3 class="best-name">Dark Chocolate</h3>
+                <p class="best-description">
+                  Dark chocolate is a rich and indulgent treat that is beloved
+                  by many chocolate enthusiasts. It is made from cocoa beans,
+                  which are roasted, ground, and then processed to produce
+                  chocolate liquor. Dark chocolate contains a higher percentage
+                  of cocoa solids compared to milk chocolate.
+                </p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- <section class="loved-section" id="loved">
+        <div class="loved-container container">
+          <h2 class="section-title">
+            <span class="title-accent">Chocolate</span> is loved
+          </h2>
+          <ul class="loved-list">
+            <li class="loved-item">
+              <picture>
+                <source
+                  srcset="
+                    ./images/loved-victoria-dobrzhanska.jpg    1x,
+                    ./images/loved-victoria-dobrzhanska-2x.jpg 2x
+                  " />
+                <img class="loved-img"
+                  src="./images/loved-victoria-dobrzhanska.jpg"
+                  alt="Victoria Dobrzhanska Foto"
+              /></picture>
+              <h3 class="loved-name">Victoria Dobrzhanska</h3>
+              <p class="loved-review">
+                I love this chocolate bar. Perfect combination of light crispy
+                wafer, covered in a thin layer chocolate.
+              </p>
+            </li>
+            <li class="loved-item">
+              <picture>
+                <source
+                  srcset="
+                    ./images/loved-nazar-babenko.jpg    1x,
+                    ./images/loved-nazar-babenko-2x.jpg 2x
+                  " />
+                <img class="loved-img"
+                  src="./images/loved-nazar-babenko.jpg"
+                  alt="Nazar Babenko Foto"
+              /></picture>
+              <h3 class="loved-name">Nazar Babenko</h3>
+              <p class="loved-review">
+                This chocolate confection is a delight! A delight! The wafer is
+                light and crisp, the hazelnut cream is smooth, and the chocolate
+                is good.
+              </p>
+            </li>
+            <li class="loved-item">
+              <picture>
+                <source
+                  srcset="
+                    ./images/loved-olena-kampusch.jpg    1x,
+                    ./images/loved-olena-kampusch-2x.jpg 2x
+                  " />
+                <img class="loved-img"
+                  src="./images/loved-olena-kampusch.jpg"
+                  alt="Olena Kampusch Foto"
+              /></picture>
+              <h3 class="loved-name">Olena Kampusch</h3>
+              <p class="loved-review">
+                Chocolate is a family favourite treat. Love the delicious smooth
+                chocolate and the creaminess inside. The wafer is soft but
+                crunchy.
+              </p>
+            </li>
+          </ul>
+          <button type="button">Leave a review</button>
+        </div>
+      </section> -->
+    </main>
+
+    <!-- <footer class="footer">
+      <div class="footer-container container">
+        <p class="footer-text">
+          <span class="title-accent">Chocolate</span> a delicious cure for a bad
+          day
+        </p>
+        <p class="footer-group-subtitle">Social networks</p>
+        <ul class="footer-socials-list">
+          <li class="footer-social-item">
+            <a
+              class="footer-social-link"
+              href="#"
+              aria-label="Instagram"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="footer-social-icon">
+                <use href="./images/icons.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a
+              class="footer-social-link"
+              href="#"
+              aria-label="Facebook"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="footer-social-icon">
+                <use href="./images/icons.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social-item">
+            <a
+              class="footer-social-link"
+              href="#"
+              aria-label="Twitter"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg class="footer-social-icon">
+                <use href="./images/icons.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        <p class="footer-group-subtitle">Contact us</p>
+        <address>
+          <ul>
+            <li>
+              <a class="footer-addr-link" href="tel:+380684439426"
+                >+380 (68) 443-94-26</a
+              >
+            </li>
+            <li>
+              <a
+                class="footer-addr-link"
+                href="mailto:simplychoc@gmail.com"
+                target="_blank"
+                >simplychoc@gmail.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <nav class="footer-nav">
+          <ul class="footer-nav-list">
+            <li class="footer-nav-item">
+              <a href="#hero">Home</a>
+            </li>
+            <li class="footer-nav-item">
+              <a href="#made">How it's made?</a>
+            </li>
+            <li class="footer-nav-item tab-hidden">
+              <a href="#products">Our products</a>
+            </li>
+            <li class="footer-nav-item">
+              <a href="#loved">Chocolate is loved</a>
+            </li>
+            <li class="footer-nav-item tab-hidden">
+              <a href="#best">Top sellers</a>
+            </li>
+          </ul>
+        </nav>
+        <form class="footer-subcribe-form">
+          <label class="footer-subcribe-label">
+            <input
+              class="footer-subcribe-input"
+              type="email"
+              name="user-email"
+              placeholder="Enter your email"
+              required
+          /></label>
+          <button class="footer-subcribe-btn" type="submit" data-modal-open>
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </footer> -->
+
+    <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
+  </body>
+</html>
